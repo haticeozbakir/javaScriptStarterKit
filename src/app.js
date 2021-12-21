@@ -1,36 +1,15 @@
-console.log("Merhaba Kodlama.io")
-
-//JS type safe değildir
-let dolarBugun = 9.30
-
+console.log("deneme");
 let dolarDun = 9.20
-dolarDun = "9.20"
-{
-    let dolarDun = 9.10
-}
-
+let dolarBugün = 9.30 
 console.log(dolarDun)
 
 const euroDun = 11.2
-//euroDun = 11
-
-console.log(euroDun)
-
 //array
-//camelCasing
+//camelCasing ->fonksiyonları tanımlarken böyle yazıcaz ilk harf küçük ikinci kelimenin ilk harfi büyük
 //PascalCasing
-let konutKredileri = ["Konut kredisi","Emlak Konut Kredisi","Kamu Konut Kredisi","Özel Konut Kredisi"]
-
+let users = ["Konut Kredisi", "Emlak Konut Kredisi","Kamu Konut Kredisi"]
 console.log("<ul>")
-for(let i = 0;i<konutKredileri.length;i++){
-    console.log("<li>"+konutKredileri[i]+"</li>")
-}
+    for(let i=0;i<users.length;i++){
+        console.log(users[i]);
+    }
 console.log("</ul>")
-
-{/* <ul>
-    <li>Konut kredisi</li>
-    <li>Emlak Konut Kredisi</li>
-    <li>Kamu Konut Kredisi</li>
-</ul> */}
-
-console.log(konutKredileri)
